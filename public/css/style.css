@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(254, 238, 216);
 }
 
 /* = = = header = = = */
@@ -55,6 +55,9 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
+    /* タイトルが横から出現するようにアレンジ */
+    transform: translateX(-100vw);
+    transition: .3s;
 }
 
 
@@ -67,6 +70,9 @@ header{
     position: relative;
     height: 420px;
     margin: 120px auto;
+    /* スクロールするとフェードインするようアレンジ */
+    opacity: 0;
+    transition: .5s;
 }
 
 .introduction__image{
@@ -75,6 +81,13 @@ header{
     object-fit: cover;
     position: absolute;
     top: 0;
+    /* ホバーすると大きくなるようアレンジ */
+    transition: .3s;
+}
+
+/* ホバーすると大きくなるようアレンジ */
+.introduction__image:hover{
+    transform: scale(1.1);
 }
 
 .introduction__image--left{
@@ -111,7 +124,7 @@ header{
 
 .introduction__title--bg{
     position: absolute;
-    color: rgb(167, 255, 173);
+    color: rgba(70, 39, 8, 0.4);
     font-size: 28px;
     top: 24px;
     z-index: 1;
@@ -207,7 +220,7 @@ footer{
         width: 90vw;
         height: 67.5vw;
     }
-
+    
     .introduction__textblock{
         width: 90vw;
     }
