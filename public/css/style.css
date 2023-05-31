@@ -55,6 +55,8 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
+    color: rgb(115, 208, 255);
+    text-shadow: 3px 6px 8px #e100ff;
 }
 
 
