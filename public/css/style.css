@@ -27,15 +27,26 @@ header{
     height: 36px;
 }
 
+.header__linklist{
+    display:flex;
+  
+}
+
 .header__link{
+    display:block;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     padding: 4px 12px;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    margin: 0 12px;
+    margin: 0 8px !important;
+    box-shadow:0 4px #888;
 }
-
+.header__link:hover{
+    background-color: rgb(0, 255, 0);
+    transform: translateY(4px);
+  box-shadow: none;
+}
 /* = = = firstview = = = */
 #firstview{
     margin-top: 72px;
@@ -55,12 +66,39 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
+    color:#fff;
+    z-index: 1;
+    padding: 0 10px;
 }
+.firstview__title::before {
+    background: #ff701e;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform .3s;
+    z-index: -1;
+  }
+  .firstview__title:hover {
+    color: #fff;
+  }
+  .firstview__title:hover::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+  }
+
 
 
 /* = = = introduction = = = */
 .introduction{
     padding-top: 72px;
+    background-color: aquamarine;
 }
 
 .introduction__content{
