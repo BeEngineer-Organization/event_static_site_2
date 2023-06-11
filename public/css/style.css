@@ -34,8 +34,17 @@ header{
     color: rgb(0, 0, 0);
     text-decoration: none;
     margin: 0 12px;
+    display:block;
+    transition: 0.5s;
 }
-
+.header__link:hover{
+    background-color: rgb(67, 110, 134);
+    transform: translateY(-5px);
+    
+}
+.header__linklist{
+    display: flex;
+}
 /* = = = firstview = = = */
 #firstview{
     margin-top: 72px;
@@ -48,19 +57,28 @@ header{
     height: 100%;
     object-fit: cover;
 }
-
 .firstview__title{
     position: absolute;
     bottom: 48px;
     left: 36px;
     font-size: 64px;
     line-height: 1;
-}
+    color:#283e74;
 
+}
+.firstview__title:hover{
+    position: absolute;
+    bottom: 48px;
+    left: 36px;
+    font-size: 32px;
+    line-height: 1;
+    color:#a6187d;
+}
 
 /* = = = introduction = = = */
 .introduction{
     padding-top: 72px;
+    background-color: aquamarine;
 }
 
 .introduction__content{
