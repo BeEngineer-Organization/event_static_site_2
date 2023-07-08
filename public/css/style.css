@@ -61,6 +61,7 @@ header{
 /* = = = introduction = = = */
 .introduction{
     padding-top: 72px;
+background-image: url("../images/吉田.jpeg");
 }
 
 .introduction__content{
