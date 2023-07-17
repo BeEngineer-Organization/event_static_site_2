@@ -1,17 +1,17 @@
 /* = = = all = = = */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-body{
+body {
     background-color: rgb(240, 240, 240);
 }
 
 /* = = = header = = = */
-header{
+header {
     background-color: rgb(69, 62, 53);
     position: fixed;
     display: flex;
@@ -23,11 +23,11 @@ header{
     z-index: 100;
 }
 
-.header__image{
+.header__image {
     height: 36px;
 }
 
-.header__link{
+.header__link {
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     padding: 4px 12px;
@@ -37,39 +37,47 @@ header{
 }
 
 /* = = = firstview = = = */
-#firstview{
+#firstview {
     margin-top: 72px;
     height: calc(100vh - 72px);
     position: relative;
 }
 
-.firstview__image{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.firstview__image {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 72px;
+    object-fit: contain;
 }
 
-.firstview__title{
+.firstview__title {
     position: absolute;
-    bottom: 48px;
-    left: 36px;
-    font-size: 64px;
+    /* bottom: 100px; */
+    top: 120px;
+    left: 200px;
+    font-size: 128px;
     line-height: 1;
+    color: rgba(16, 120, 59, 0.473);
+}
+
+.firstview__title:hover {
+    color: blue;
 }
 
 
 /* = = = introduction = = = */
-.introduction{
+.introduction {
     padding-top: 72px;
 }
 
-.introduction__content{
+.introduction__content {
     position: relative;
     height: 420px;
     margin: 120px auto;
 }
 
-.introduction__image{
+.introduction__image {
     width: 560px;
     height: 420px;
     object-fit: cover;
@@ -77,15 +85,15 @@ header{
     top: 0;
 }
 
-.introduction__image--left{
+.introduction__image--left {
     left: 15vw;
 }
 
-.introduction__image--right{
+.introduction__image--right {
     right: 15vw;
 }
 
-.introduction__textblock{
+.introduction__textblock {
     position: absolute;
     padding: 48px;
     width: 360px;
@@ -94,22 +102,22 @@ header{
     background-color: rgb(255, 255, 255);
 }
 
-.introduction__textblock--left{
+.introduction__textblock--left {
     left: calc(15vw + 500px);
 }
 
-.introduction__textblock--right{
+.introduction__textblock--right {
     right: calc(15vw + 500px);
 }
 
-.introduction__title{
+.introduction__title {
     font-weight: bold;
     font-size: 24px;
     z-index: 2;
     margin-bottom: 12px;
 }
 
-.introduction__title--bg{
+.introduction__title--bg {
     position: absolute;
     color: rgb(167, 255, 173);
     font-size: 28px;
@@ -118,30 +126,30 @@ header{
     font-family: 'Inconsolata', monospace;
 }
 
-.introduction__title--bg--left{
+.introduction__title--bg--left {
     text-align: right;
     right: 24px;
 }
 
-.introduction__title--bg--right{
+.introduction__title--bg--right {
     left: 24px;
 }
 
 /* = = = footer = = = */
 
-footer{
+footer {
     background-color: rgb(69, 62, 53);
     padding: 24px;
 }
 
-.footer__image{
+.footer__image {
     display: block;
     margin: auto;
     width: 144px;
 }
 
 /* 画面が小さくなった場合 */
-@media (max-width: 1023px) {
+/* @media (max-width: 1023px) {
     header{
         padding: 4px 16px;
     }
@@ -198,7 +206,7 @@ footer{
 }
 
 /* スマホの場合 */
-@media (max-width: 519px) {
+/* @media (max-width: 519px) {
     .firstview__title{
         font-size: 32px;
     }
@@ -211,4 +219,4 @@ footer{
     .introduction__textblock{
         width: 90vw;
     }
-}
+} */
