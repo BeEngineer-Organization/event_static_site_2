@@ -17,4 +17,4 @@ jobs:
           aws-region: ${{ AWS_S3_REGION_NAME }}
       - name: S3 sync
         working-directory: public
-        run: aws s3 sync . s3://${{ AWS_STORAGE_BUCKET_NAME }}/${{ github.ref_name }} --delete --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers --exclude "README.md"
+        run: aws s3 sync . s3://${{ AWS_STORAGE_BUCKET_NAME }}/${{ github.ref_name }} --delete --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
