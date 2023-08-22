@@ -5,7 +5,7 @@ on:
 
 env:
   MY_AWS_REGION: "ap-northeast-1"
-  AWS_ROLENAME: "role_githubactions_s3sync"
+  AWS_ROLENAME: "GitHubActionsOIDCRole"
   AWS_S3_BUCKET: "event-static-site-upload-test"
   SOURCE_DIR: "public"
 
