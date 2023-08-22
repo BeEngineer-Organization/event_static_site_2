@@ -1,17 +1,28 @@
-name: Deploy to S3 on Push
+name: Upload files to S3
+
 on:
   push:
+
+env:
+  MY_AWS_REGION: "ap-northeast-1"
+  AWS_ROLENAME: "role_githubactions_s3sync"
+  AWS_S3_BUCKET: "event-static-site-upload-test"
+  SOURCE_DIR: "public"
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v2
-      - name: Set up AWS credentials
+      - name: Configure AWS credentials with IAM Role
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      - name: S3 sync
-        working-directory: public
-        aws s3 cp --recursive --region ${{ secrets.AWS_S3_REGION_NAME }} build s3://${{ secrets.AWS_STORAGE_BUCKET_NAME }}/${{ github.ref_name }}
+          role-to-assume: arn:aws:iam::${{secrets.AWS_ACCOUNT_ID}}:role/${{env.AWS_ROLENAME}}
+          aws-region: ${{env.MY_AWS_REGION}}
+      - name: Copy files to S3
+        run: |
+          aws s3 sync ${{env.SOURCE_DIR}} s3://${{env.AWS_S3_BUCKET}}/${{ github.ref_name }}/
