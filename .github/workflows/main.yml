@@ -2,7 +2,7 @@ name: Deploy to S3 on Push
 on:
   push:
     branches-ignore:
-      - "main"
+      - 'main'
 jobs:
   deploy:
     runs-on: ubuntu-latest
