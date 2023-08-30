@@ -61,6 +61,7 @@ header{
 /* = = = introduction = = = */
 .introduction{
     padding-top: 72px;
+    background-color: rgb(147, 175, 196);
 }
 
 .introduction__content{
@@ -104,9 +105,15 @@ header{
 
 .introduction__title{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
     z-index: 2;
     margin-bottom: 12px;
+    color: #223a70;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+a {
+    font-family: 'Dela Gothic One', cursive;
 }
 
 .introduction__title--bg{
