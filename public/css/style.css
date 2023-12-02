@@ -51,11 +51,18 @@ header{
 
 .firstview__title{
     position: absolute;
-    bottom: 48px;
-    left: 36px;
+    bottom: 33px;
+    left: 333px;
     font-size: 64px;
     line-height: 1;
+    color:#e6bafd;
+    opacity: 0;
+    transition: 2s;
 }
+
+/* .firstview__title__active{
+    opacity: 1;
+} */
 
 
 /* = = = introduction = = = */
