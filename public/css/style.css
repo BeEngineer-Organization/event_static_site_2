@@ -7,12 +7,12 @@
 }
 
 body{
-    background-color: rgb(254, 238, 216);
+    background-color:rgba(80, 44, 110, 0.493);
 }
 
 /* = = = header = = = */
 header{
-    background-color: rgb(69, 62, 53);
+    background-color: rgb(228, 150, 204);
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -75,6 +75,7 @@ header{
     object-fit: cover;
     position: absolute;
     top: 0;
+
 }
 
 .introduction__image--left{
@@ -88,8 +89,8 @@ header{
 .introduction__textblock{
     position: absolute;
     padding: 48px;
-    width: 360px;
-    height: 300px;
+    width: 500px;
+    height: 360px;
     top: 60px;
     background-color: rgb(255, 255, 255);
 }
@@ -130,7 +131,7 @@ header{
 /* = = = footer = = = */
 
 footer{
-    background-color: rgb(69, 62, 53);
+    background-color:rgb(228, 150, 204);
     padding: 24px;
 }
 
@@ -211,4 +212,8 @@ footer{
     .introduction__textblock{
         width: 90vw;
     }
+}
+.sakusya{
+    font-size: 32px;
+    margin-left: 48px;
 }
