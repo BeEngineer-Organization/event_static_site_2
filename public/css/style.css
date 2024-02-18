@@ -53,8 +53,9 @@ header{
     position: absolute;
     bottom: 48px;
     left: 36px;
-    font-size: 64px;
+    font-size: 100px;
     line-height: 1;
+    color: blue;
 }
 
 
@@ -107,12 +108,13 @@ header{
     font-size: 24px;
     z-index: 2;
     margin-bottom: 12px;
+    color: rgb(21, 35, 92);
 }
 
 .introduction__title--bg{
     position: absolute;
-    color: rgba(70, 39, 8, 0.4);
-    font-size: 28px;
+    color: rgba(8, 66, 70, 0.4);
+    font: size 24px;
     top: 24px;
     z-index: 1;
     font-family: 'Inconsolata', monospace;
