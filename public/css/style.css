@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(254, 238, 216);
+    background-color: rgb(193, 99, 99);
 }
 
 /* = = = header = = = */
@@ -55,6 +55,8 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
+    color:white;
+    background-color:black;
 }
 
 
@@ -130,7 +132,7 @@ header{
 /* = = = footer = = = */
 
 footer{
-    background-color: rgb(69, 62, 53);
+    background-color: rgb(197, 53, 53);
     padding: 24px;
 }
 
