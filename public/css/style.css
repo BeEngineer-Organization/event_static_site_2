@@ -55,6 +55,8 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
+    color: rgb(64, 255, 0);
+    background-color: rgba(240, 248, 255, 0.653);
 }
 
 
@@ -77,6 +79,7 @@ header{
     top: 0;
 }
 
+
 .introduction__image--left{
     left: 15vw;
 }
@@ -85,6 +88,9 @@ header{
     right: 15vw;
 }
 
+.image__high{
+    height: 1200px;
+}
 .introduction__textblock{
     position: absolute;
     padding: 48px;
@@ -173,6 +179,10 @@ footer{
         right: unset;
         left: unset;
         display: block;
+    }
+
+    .image__high{
+        height: 1300px;
     }
 
     .introduction__textblock{
