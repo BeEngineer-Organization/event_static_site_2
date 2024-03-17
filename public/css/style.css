@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(254, 238, 216);
+    background-color: rgb(232, 254, 216);
 }
 
 /* = = = header = = = */
@@ -55,6 +55,8 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
+    color: rgb(7, 0, 10);
+    background-color: aliceblue;
 }
 
 
@@ -140,6 +142,15 @@ footer{
     width: 144px;
 }
 
+.introduction__text{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.sunndai{
+    margin-top: 18px;
+}
 /* 画面が小さくなった場合 */
 @media (max-width: 1023px) {
     header{
