@@ -52,9 +52,12 @@ header{
 .firstview__title{
     position: absolute;
     bottom: 48px;
-    left: 36px;
+    left: -160px;
     font-size: 64px;
     line-height: 1;
+    color:rgb(55, 163, 108);
+    opacity:0;
+    transition:3s;
 }
 
 
