@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(254, 238, 216);
+    background-color: rgba(110, 92, 201, 0.327);
 }
 
 /* = = = header = = = */
@@ -22,7 +22,9 @@ header{
     padding: 18px 36px;
     z-index: 100;
 }
-
+.padding{
+     padding: 40px;
+}
 .header__image{
     height: 36px;
 }
@@ -52,9 +54,12 @@ header{
 .firstview__title{
     position: absolute;
     bottom: 48px;
-    left: 36px;
+    /* left: -160px; */
     font-size: 64px;
     line-height: 1;
+    color: black;
+    /* opacity:0; */
+    transition:3s;
 }
 
 
@@ -71,10 +76,11 @@ header{
 
 .introduction__image{
     width: 560px;
-    height: 420px;
+    height: 620px;
     object-fit: cover;
     position: absolute;
     top: 0;
+    z-index: 99;
 }
 
 .introduction__image--left{
