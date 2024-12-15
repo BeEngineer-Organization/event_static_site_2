@@ -71,7 +71,9 @@ header{
 }
 
 .introduction__image{
+    width: 560px;
     height: 420px;
+    object-fit: cover;
     position: absolute;
     top: 0;
 }
