@@ -55,6 +55,7 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -70,9 +71,7 @@ header{
 }
 
 .introduction__image{
-    width: 560px;
     height: 420px;
-    object-fit: cover;
     position: absolute;
     top: 0;
 }
@@ -159,6 +158,7 @@ footer{
     .firstview__title{
         font-size: 48px;
         left: 12px;
+        color: rgb(255, 255, 255);
     }
 
     .introduction__content{
