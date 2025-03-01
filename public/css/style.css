@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(254, 238, 216);
+    background-color: rgb(226, 225, 220);
 }
 
 /* = = = header = = = */
@@ -51,6 +51,7 @@ header{
 
 .firstview__title{
     position: absolute;
+    color: rgb(255, 255, 255);
     bottom: 48px;
     left: 36px;
     font-size: 64px;
