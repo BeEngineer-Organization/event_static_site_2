@@ -7,12 +7,12 @@
 }
 
 body{
-    background-color: rgb(254, 238, 216);
+    background-color: rgb(250, 237, 237);
 }
 
 /* = = = header = = = */
 header{
-    background-color: rgb(69, 62, 53);
+    background-color: rgb(182, 178, 225);
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,7 @@ header{
 }
 
 .header__link{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(158, 149, 216);
     border-radius: 8px;
     padding: 4px 12px;
     color: rgb(0, 0, 0);
@@ -91,7 +91,7 @@ header{
     width: 360px;
     height: 300px;
     top: 60px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(160, 218, 187);
 }
 
 .introduction__textblock--left{
