@@ -7,12 +7,12 @@
 }
 
 body{
-    background-color: rgb(254, 238, 216);
+    background-color: rgb(217, 254, 216);
 }
 
 /* = = = header = = = */
 header{
-    background-color: rgb(69, 62, 53);
+    background-color: rgb(62, 53, 69);
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@ header{
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     padding: 4px 12px;
-    color: rgb(0, 0, 0);
+    color:rgba(76, 43, 226, 0);
     text-decoration: none;
     margin: 0 12px;
 }
@@ -55,8 +55,8 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
+color:#00ffff
 }
-
 
 /* = = = introduction = = = */
 .introduction{
