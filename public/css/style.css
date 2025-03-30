@@ -3,11 +3,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: scale(1, 1.01);
+    -moz-transform-origin: 0 0;
+    -moz-transform: scale(1, 1.01);
+    -ms-transform-origin: 0 0;
+    -ms-transform: scale(1, 1.02);
+    -o-transform-origin: 0 0;
+    -o-transform: scale(1, 1.01);
 }
 
+
+
 body{
-    background-color: rgb(254, 238, 216);
+    background-color: rgb(77, 193, 102);
 }
 
 /* = = = header = = = */
@@ -55,7 +65,8 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
-}
+    color:rgb(112, 195, 198)
+}　　
 
 
 /* = = = introduction = = = */
@@ -107,6 +118,7 @@ header{
     font-size: 24px;
     z-index: 2;
     margin-bottom: 12px;
+    color:rgba(170, 11, 43, 0.866)
 }
 
 .introduction__title--bg{
