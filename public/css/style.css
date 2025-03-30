@@ -12,7 +12,7 @@ body{
 
 /* = = = header = = = */
 header{
-    background-color: rgb(69, 62, 53);
+    background-color: rgb(218, 182, 135);
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -55,6 +55,7 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
+    color: black;
 }
 
 
