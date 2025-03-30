@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(254, 238, 216);
+    background-color: rgb(105, 147, 188);
 }
 
 /* = = = header = = = */
@@ -55,6 +55,8 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
+    color:rgb(77, 205, 102)
+
 }
 
 
@@ -211,4 +213,9 @@ footer{
     .introduction__textblock{
         width: 90vw;
     }
+}
+
+#light-car {
+    transform: translateX(-100%);
+    transition: 0s;
 }
