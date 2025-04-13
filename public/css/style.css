@@ -115,7 +115,7 @@ header{
 
 .introduction__title--bg{
     position: absolute;
-    color: rgba(230, 0, 255, 0.4);
+    color: rgb(13, 0, 255);
     font-size: 28px;
     top: 24px;
     z-index: 1;
