@@ -7,12 +7,12 @@
 }
 
 body{
-    background-color: rgb(254, 238, 216);
+    background-color: rgb(48, 68, 97);
 }
 
 /* = = = header = = = */
 header{
-    background-color: rgb(69, 62, 53);
+    background-color: rgb(63, 68, 231);
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -28,10 +28,10 @@ header{
 }
 
 .header__link{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(170, 198, 197);
     border-radius: 8px;
     padding: 4px 12px;
-    color: rgb(0, 0, 0);
+    color: rgb(17, 59, 198);
     text-decoration: none;
     margin: 0 12px;
 }
@@ -55,6 +55,7 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -91,7 +92,7 @@ header{
     width: 360px;
     height: 300px;
     top: 60px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(16, 92, 103);
 }
 
 .introduction__textblock--left{
@@ -107,11 +108,12 @@ header{
     font-size: 24px;
     z-index: 2;
     margin-bottom: 12px;
+    color: rgb(172, 172, 187);
 }
 
 .introduction__title--bg{
     position: absolute;
-    color: rgba(70, 39, 8, 0.4);
+    color: rgba(57, 85, 160, 0.363);
     font-size: 28px;
     top: 24px;
     z-index: 1;
@@ -125,6 +127,10 @@ header{
 
 .introduction__title--bg--right{
     left: 24px;
+}
+
+.introduction__text {
+    color: rgb(145, 201, 190);
 }
 
 /* = = = footer = = = */
