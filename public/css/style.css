@@ -7,12 +7,12 @@
 }
 
 body{
-    background-color: rgb(254, 238, 216);
+    background-color: rgb(255, 251, 0);
 }
 
 /* = = = header = = = */
 header{
-    background-color: rgb(69, 62, 53);
+    background-color: rgb(55, 0, 255);
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -50,11 +50,15 @@ header{
 }
 
 .firstview__title{
+    display: inline-block;
     position: absolute;
     bottom: 48px;
     left: 36px;
     font-size: 64px;
     line-height: 1;
+    background: linear-gradient(90deg, #fff200 0%, #ffffff 50%, #1900ff 80% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -111,7 +115,7 @@ header{
 
 .introduction__title--bg{
     position: absolute;
-    color: rgba(70, 39, 8, 0.4);
+    color: rgba(230, 0, 255, 0.4);
     font-size: 28px;
     top: 24px;
     z-index: 1;
