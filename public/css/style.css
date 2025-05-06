@@ -55,12 +55,14 @@ header{
     left: 36px;
     font-size: 64px;
     line-height: 1;
+    color: aliceblue;
 }
 
 
 /* = = = introduction = = = */
 .introduction{
     padding-top: 72px;
+    background-color:beige
 }
 
 .introduction__content{
